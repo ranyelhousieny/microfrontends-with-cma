@@ -1,23 +1,6 @@
-import React, {
-  useState,
-} from 'react';
+import React from 'react';
 
-const Button = (props) => {
-  const [result, setResult] =
-    useState(null);
-
-  return (
-    <div>
-      <button
-        onClick={(e) => {
-          setResult(
-            props.intValue * 2
-          );
-        }}>
-        MFE1 Button
-      </button>
-      <div>{result}</div>
-    </div>
-  );
-};
+const Button = () => (
+  <button>MFE1 Button</button>
+);
 export default Button;
