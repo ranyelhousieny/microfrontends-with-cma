@@ -14,7 +14,7 @@ const App = () => (
       Language: JavaScript
     </div>
     <div>CSS: Empty CSS</div>
-    <Button intValue={4}>
+    <Button>
       MFE1 Button
     </Button>
   </div>
