@@ -11,13 +11,14 @@ const Button = (props) => {
       <button
         onClick={(e) => {
           setResult(
-            props.intValue * 2
+            props.value * 2
           );
         }}>
         MFE1 Button
       </button>
-      <div>{result}</div>
+      <span>{result}</span>
     </div>
   );
 };
+
 export default Button;
